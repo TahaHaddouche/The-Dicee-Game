@@ -77,7 +77,8 @@ img
   color: #EEE;
   font-size: 25px;
   border-style: solid;
-  border-radius: 8%;
+  border-width: 4px
+  border-radius: 10%;
   background-color: #a00;
 }
 .replay:hover
