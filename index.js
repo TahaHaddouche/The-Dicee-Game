@@ -4,7 +4,7 @@ function RollDices()
   document.querySelector(".img1").setAttribute("src","pics/dice"+diceN1+".png");
   document.querySelector(".img2").setAttribute("src","pics/dice"+diceN2+".png");
   document.querySelector("#dices").style.marginBottom="0";
-  document.querySelector("#aftermatch").innerHTML="<div class='replaybtn'><a class='replay' onclick='RollDices()' type='button'><i class='fa-solid fa-rotate-right'></i> Reroll</a></div>";
+  document.querySelector("#aftermatch").innerHTML="<button class='replay replaybtn' type='button' name='button' onclick='RollDices()'><i class='fa-solid fa-rotate-right'></i> Reroll</button>";
   if(diceN1>diceN2)
   {
     document.querySelector("h1").innerHTML="Player 1 won!";
