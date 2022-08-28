@@ -37,15 +37,18 @@ img
 .refreshtxt
 {
   color: #4ECCA3;
+  transition: 0.2s;
 }
 .refreshtxt:hover
 {
   color: #EEE;
   cursor: pointer;
+  transition: 0.2s;
 }
 .refreshtxt:active
 {
   text-shadow: 5px 5px #900000;
+  transition: 0s;
 }
 #dices
 {
@@ -85,6 +88,7 @@ img
   border-width: 4px;
   border-radius: 10%;
   background-color: #a00;
+  transition: 0.3s;
 }
 .replay:hover,
 .replay:focus
@@ -92,6 +96,7 @@ img
   color: #4ECCA3;
   text-decoration: none;
   border-color: #4ECCA3;
+  transition: 0.3s;
 }
 .replay:active
 {
@@ -100,6 +105,7 @@ img
   box-shadow: 0 0 0 4px #AAA;
   color: #EEE;
   border-color: #EEE;
+  transition: 0s;
 }
 #contact
 {
